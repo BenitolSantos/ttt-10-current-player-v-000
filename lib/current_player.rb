@@ -19,7 +19,7 @@ def current_player(board)
     return "X"
   elsif
     return "O"
-  else
+  else counter == 0
     return nil
   end
 end
